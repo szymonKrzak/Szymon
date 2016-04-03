@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VFly
+namespace VFlyGit
 {
-    class Program
+    class Controller4_AudioPanel : IFrame
     {
-        static void Main(string[] args)
-        {
-            
-        }
+        public ControllerButtons Buttons { get; set; }
     }
 }
