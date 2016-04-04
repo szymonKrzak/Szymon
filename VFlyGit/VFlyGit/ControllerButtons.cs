@@ -24,17 +24,6 @@ namespace VFlyGit
     [StructLayout(LayoutKind.Explicit)]
     public struct DO0
     {
-        public DO0(int a) : this()
-        {
-            BitArray bit = new BitArray();
-            bit.Set(0, AU_TEL);
-            bit.Add(AU_COM1_2);
-            bit.Add(AU_COM3);
-
-            return bit;
-        }
-
-
         [Description("Wciśnięty - 1, Puszczony - 0")]
         [FieldOffset(0)]
         public int AU_TEL;
