@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controller4_AudioPanel.cs" />
-    <Compile Include="ControllerButtons.cs" />
+    <Compile Include="Abstracts\ByteBase.cs" />
+    <Compile Include="Controller_4\Controller_4.cs" />
+    <Compile Include="Controller_4\DO5.cs" />
+    <Compile Include="Interfaces\IByteValue.cs" />
+    <Compile Include="Interfaces\IFrame.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
